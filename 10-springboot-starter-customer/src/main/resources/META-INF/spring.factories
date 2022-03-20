@@ -1,0 +1,8 @@
+org.springframework.boot.SpringApplicationRunListener=\
+com.mrlu.springboot.listener.MySpringApplicationRunListener
+
+org.springframework.context.ApplicationContextInitializer=\
+com.mrlu.springboot.listener.MyApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.mrlu.springboot.listener.MyApplicationListener

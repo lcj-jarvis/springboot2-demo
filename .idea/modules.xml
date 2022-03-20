@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-springboot-helloworld/01-springboot-helloworld.iml" filepath="$PROJECT_DIR$/01-springboot-helloworld/01-springboot-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-springboot-springinitailizr/02-springboot-springinitailizr.iml" filepath="$PROJECT_DIR$/02-springboot-springinitailizr/02-springboot-springinitailizr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-springboot-yml/03-springboot-yml.iml" filepath="$PROJECT_DIR$/03-springboot-yml/03-springboot-yml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-springboot-web/04-springboot-web.iml" filepath="$PROJECT_DIR$/04-springboot-web/04-springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-springboot-web-requestbody/04-springboot-web-requestbody.iml" filepath="$PROJECT_DIR$/04-springboot-web-requestbody/04-springboot-web-requestbody.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-springboot-accessdataByMybatis/05-springboot-accessdataByMybatis.iml" filepath="$PROJECT_DIR$/05-springboot-accessdataByMybatis/05-springboot-accessdataByMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-springboo-accesssdatabymybatisplus/06-springboo-accesssdatabymybatisplus.iml" filepath="$PROJECT_DIR$/06-springboo-accesssdatabymybatisplus/06-springboo-accesssdatabymybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-springboot-thymeleaf-crud/07-springboot-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/07-springboot-thymeleaf-crud/07-springboot-thymeleaf-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-springboot-actuator-view/08-springboot-actuator-view.iml" filepath="$PROJECT_DIR$/08-springboot-actuator-view/08-springboot-actuator-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-springboot-features-profiles/09-springboot-features-profiles.iml" filepath="$PROJECT_DIR$/09-springboot-features-profiles/09-springboot-features-profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-springboot-starter-customer/10-springboot-starter-customer.iml" filepath="$PROJECT_DIR$/10-springboot-starter-customer/10-springboot-starter-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-spring5-webflux/11-spring5-webflux.iml" filepath="$PROJECT_DIR$/11-spring5-webflux/11-spring5-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-spring5-webflux/12-spring5-webflux.iml" filepath="$PROJECT_DIR$/12-spring5-webflux/12-spring5-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-redis-jedis/13-redis-jedis.iml" filepath="$PROJECT_DIR$/13-redis-jedis/13-redis-jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-springboot-redis/14-springboot-redis.iml" filepath="$PROJECT_DIR$/14-springboot-redis/14-springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-springboot-redis-masterandslave/15-springboot-redis-masterandslave.iml" filepath="$PROJECT_DIR$/15-springboot-redis-masterandslave/15-springboot-redis-masterandslave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-springboot-redis-seckill/16-springboot-redis-seckill.iml" filepath="$PROJECT_DIR$/16-springboot-redis-seckill/16-springboot-redis-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-springboot-redis-cluster/17-springboot-redis-cluster.iml" filepath="$PROJECT_DIR$/17-springboot-redis-cluster/17-springboot-redis-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-elasticsearch/18-springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/18-springboot-elasticsearch/18-springboot-elasticsearch.iml" />
+    </modules>
+  </component>
+</project>

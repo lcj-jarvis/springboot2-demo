@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--加入thymeleaf的名称空间xmlns:th="http://www.thymeleaf.org"-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      <!--设置标题text里的内容-->
+      <h1 th:text="${msg}">哈哈</h1>
+      <!--将href的值替换为${link}的内容-->
+      <a href="www.atguigu.com" th:href="${link}">去百度</a>
+      <!--此时认为link就是要去的地址，而且link里的内容-->
+      <a href="www.atguigu.com" th:href="@{link}">去百度</a>
+      <!--/link 这样就会把/link追加到工程路径-->
+      <a href="www.atguigu.com" th:href="@{/link}">去百度</a>
+</body>
+</html>

@@ -1,0 +1,71 @@
+spring:
+  datasource:
+#    连接数据库的url
+    url: jdbc:mysql://localhost:3306/ssm
+#    账号
+    username: root
+#    密码
+    password: root
+#    配置数据库驱动
+    driver-class-name: com.mysql.jdbc.Driver
+
+#参考这里进行配置
+# https://github:com/alibaba/druid/tree/master/druid-spring-boot-starter:
+# https://github:com/alibaba/druid:
+#https://github.com/alibaba/druid/wiki/DruidDataSource%E9%85%8D%E7%BD%AE%E5%B1%9E%E6%80%A7%E5%88%97%E8%A1%A8
+
+    druid:
+      aop-patterns: {com.mrlu.springboot.*} #监控SpringBean
+
+      filters: stat,wall #底层开启功能，stat（sql监控），wall（防火墙）
+
+      stat-view-servlet: #配置监控页的功能
+        enabled: true
+        login-username: admin
+        login-password: admin
+        reset-enable: false #不进入重置按钮
+
+      #监控web
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
+
+       #对上面的filters详细配置
+      filter:
+        stat:
+#          设置慢sql的时间
+          slow-sql-millis: 1000
+          log-slow-sql: true
+          enabled: true
+        wall:
+          enabled: true
+#          禁止删除表
+          config:
+            drop-table-allow: false
+
+#    数据源的类型 【不配其他的时候，默认就是这个】
+#    type: com.zaxxer.hikari.HikariDataSource
+
+#  查询超时时间3s
+#  jdbc:
+#    template:
+#      query-timeout: 3
+mybatis:
+  #config-location: classpath:config/mybatis.xml  #全局配置文件位置
+  mapper-locations: classpath:config/mapper/StudentMapper.xml #sql映射文件位置
+
+  #配置 private Configuration configuration; mybatis.configuration下面的所有
+  #就是相当于改mybatis全局配置文件中的值
+  #可以不写全局配置文件，所有全局配置文件的配置都放在configuration配置项中即可.
+  #如果配置了这个。就不要配置config-location
+  configuration:
+    map-underscore-to-camel-case: true
+
+#    更多的内容，参考mybatis的官方文档
+#    https://github.com/mybatis/spring-boot-starter/tree/mybatis-spring-boot-2.1.4
+
+logging:
+  level:
+    com.mrlu.springboot.dao: debug
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--日志-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--设置别名-->
+    <typeAliases>
+        <package name="实体类的包名"/>
+    </typeAliases>
+
+    <!--配置sql映射文件的-->
+    <mappers>
+        <!--
+            name是包名，这个包中的所有mapper.xml一次都能加载
+            使用package的要求：
+            1、mapper文件名称和dao接口名必须完全一样，包括大小写
+            2、mapper文件和dao接口必须在同一个目录下
+        -->
+        <package name="mapper文件所在的包名"/>
+    </mappers>
+</configuration>

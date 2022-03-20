@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    schema: classpath:db/user.sql
+    data: classpath:db/data.sql
+    url: jdbc:mysql://localhost:3306/ssm
+    username: root
+    password: root
+
+#mybatisplus\u7684\u914D\u7F6E\u3002\u66F4\u591A\u7684\u914D\u7F6E\u89C1https://baomidou.com/config/
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+#\u8F93\u51FAsql\u65E5\u5FD7
+logging:
+  level:
+     com.mrlu.springboot.dao: debug

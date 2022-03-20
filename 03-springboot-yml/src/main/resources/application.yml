@@ -1,0 +1,44 @@
+#文件的后缀可以写.yaml，也可以写.yml
+#该配置文件和properties配置文件的内容一起生效。如果都有的话
+#  private String userName;
+#  private Boolean boss;
+#  private Date birth;
+#  private Integer age;
+#  private Pet pet;
+#  private String[] interests;
+#  private List<String> animal;
+#  private Map<String, Object> score;
+#  private Set<Double> salarys;
+#  private Map<String, List<Pet>> allPets;
+#如果properties配置文件里配置的内容和yaml配置文件里都有的话，以properties配置文件的为先
+person:
+#  单引号会将\n当做字符串输出，双引号会将\n当做换行输出
+#  单引号不会转义，双引号会转义
+  user-name: '张三 \n 李四'
+  boss: true
+  birth: 1998/05/09
+  age: 25
+#  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+    - 看书
+#  map的key和value也可以不用空格隔开
+  score: {English: 90,Math: 95}
+  salarys:
+    - 9999.9
+    - 8888.8
+  pet:
+    name: 阿狗
+    weight: 99.99
+  allPets:
+    sick:
+      - {name: 阿猫,weight: 50}
+      - name: 阿狗
+        weight: 88.88
+    health: [{name: 猪猪,weight: 50},{name: 小鸟,weight: 60}]
+  animal:
+    - 猪猪
+    - 爱猪
+
+

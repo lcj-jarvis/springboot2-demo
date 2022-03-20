@@ -1,0 +1,20 @@
+# Project exclude paths
+/01-springboot-helloworld/target/
+/02-springboot-springinitailizr/target/
+/03-springboot-yml/target/
+/04-springboot-web/target/
+/04-springboot-web-requestbody/target/
+/05-springboot-accessdataByMybatis/target/
+/06-springboo-accesssdatabymybatisplus/target/
+/07-springboot-thymeleaf-crud/target/
+/08-springboot-actuator-view/target/
+/09-springboot-features-profiles/target/
+/10-springboot-starter-customer/target/
+/11-spring5-webflux/target/
+/12-spring5-webflux/target/
+/13-redis-jedis/target/
+/14-springboot-redis/target/
+/15-springboot-redis-masterandslave/target/
+/16-springboot-redis-seckill/target/
+/17-springboot-redis-cluster/target/
+/18-springboot-elasticsearch/target/

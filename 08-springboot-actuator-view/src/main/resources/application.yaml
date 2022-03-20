@@ -1,0 +1,3 @@
+#\u9632\u6B62\u548C\u5176\u4ED6\u7684\u5FAE\u670D\u52A1\u7684\u7AEF\u53E3\u53F7\u51B2\u7A81\uFF0807-springboot-thymeleaf-crud\uFF09
+server:
+  port: 9090

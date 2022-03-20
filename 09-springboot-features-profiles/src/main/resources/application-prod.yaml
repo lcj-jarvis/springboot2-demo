@@ -1,0 +1,5 @@
+
+person.name: prod-张三
+#person.age: 23
+server:
+  port: 7000

@@ -1,0 +1,48 @@
+#改变静态资源的访问路径
+#http://localhost:8080/res/1.jpg 资源输入才能访问静态资源。
+#http://localhost:8080/1.jpg 这样输入访问不到
+#注意：欢迎页的访问不能加前缀/res/
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+
+  #修改工程路径对应的目录。即只能直接返回haha目录下的内容 http://localhost:8080/res/3.jpg。
+  #这样的话static目录或者public目录或者resources目录，或者META-INF/resources都访问不到了
+#  web:
+#    resources:
+#      static-locations: [classpath:/haha/]
+#spring:
+#  web:
+#    resources:
+#      add-mappings: false
+
+
+#spring:
+#  web:
+#    resources:
+#      cache:
+#        period: 11000
+# 和上面的配置是一样的
+
+#spring:
+#  web:
+#    resources:
+#      cache:
+#        cachecontrol:
+#          max-age: 16000
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true  #开启表单的Rest风格
+
+    contentnegotiation:
+      favor-parameter: true #开始参数类型的媒体协商
+#      http://localhost:8080/test/person?format=json 服务器响应json
+#      http://localhost:8080/test/person?format=xml  浏览器响应xml
+
+#设置工程路径
+#server:
+#  servlet:
+#    context-path: /04-springboot-web

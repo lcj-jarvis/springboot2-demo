@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-springboot-web" />
+        <module name="03-springboot-yml" />
+        <module name="05-springboot-accessdataByMybatis" />
+        <module name="14-springboot-redis" />
+        <module name="18-springboot-elasticsearch" />
+        <module name="06-springboo-accesssdatabymybatisplus" />
+        <module name="13-redis-jedis" />
+        <module name="04-springboot-web-requestbody" />
+        <module name="10-springboot-starter-customer" />
+        <module name="02-springboot-springinitailizr" />
+        <module name="16-springboot-redis-seckill" />
+        <module name="12-spring5-webflux" />
+        <module name="08-springboot-actuator-view" />
+        <module name="01-springboot-helloworld" />
+        <module name="11-spring5-webflux" />
+        <module name="15-springboot-redis-masterandslave" />
+        <module name="07-springboot-thymeleaf-crud" />
+        <module name="09-springboot-features-profiles" />
+        <module name="17-springboot-redis-cluster" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-springboot-helloworld" target="1.8" />
+      <module name="02-springboot-springinitailizr" target="1.8" />
+      <module name="03-springboot-yml" target="1.8" />
+      <module name="04-springboot-web" target="1.8" />
+      <module name="04-springboot-web-requestbody" target="1.8" />
+      <module name="05-springboot-accessdataByMybatis" target="1.8" />
+      <module name="06-springboo-accesssdatabymybatisplus" target="1.8" />
+      <module name="07-springboot-thymeleaf-crud" target="1.8" />
+      <module name="08-springboot-actuator-view" target="1.8" />
+      <module name="09-springboot-features-profiles" target="1.8" />
+      <module name="10-springboot-starter-customer" target="1.8" />
+      <module name="11-spring5-webflux" target="1.8" />
+      <module name="11-spring5-webflux (1)" target="1.8" />
+      <module name="12-spring5-webflux" target="1.8" />
+      <module name="13-redis-jedis" target="1.8" />
+      <module name="14-springboot-redis" target="1.8" />
+      <module name="15-springboot-redis-masterandslave" target="1.8" />
+      <module name="16-springboot-redis-seckill" target="1.8" />
+      <module name="17-springboot-redis-cluster" target="1.8" />
+      <module name="18-springboot-elasticsearch" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-springboot-helloworld" options="-parameters" />
+      <module name="02-springboot-springinitailizr" options="-parameters" />
+      <module name="03-springboot-yml" options="-parameters" />
+      <module name="04-springboot-web" options="-parameters" />
+      <module name="04-springboot-web-requestbody" options="-parameters" />
+      <module name="05-springboot-accessdataByMybatis" options="-parameters" />
+      <module name="06-springboo-accesssdatabymybatisplus" options="-parameters" />
+      <module name="07-springboot-thymeleaf-crud" options="-parameters" />
+      <module name="08-springboot-actuator-view" options="-parameters" />
+      <module name="09-springboot-features-profiles" options="-parameters" />
+      <module name="10-springboot-starter-customer" options="-parameters" />
+      <module name="11-spring5-webflux" options="-parameters" />
+      <module name="11-spring5-webflux (1)" options="-parameters" />
+      <module name="12-spring5-webflux" options="-parameters" />
+      <module name="13-redis-jedis" options="-parameters" />
+      <module name="14-springboot-redis" options="-parameters" />
+      <module name="15-springboot-redis-masterandslave" options="-parameters" />
+      <module name="16-springboot-redis-seckill" options="-parameters" />
+      <module name="17-springboot-redis-cluster" options="-parameters" />
+      <module name="18-springboot-elasticsearch" options="-parameters" />
+    </option>
+  </component>
+</project>

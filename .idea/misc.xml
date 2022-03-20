@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01-springboot-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/02-springboot-springinitailizr/pom.xml" />
+        <option value="$PROJECT_DIR$/03-springboot-corefunction/pom.xml" />
+        <option value="$PROJECT_DIR$/03-springboot-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/04-springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/05-springboot-accessdata/pom.xml" />
+        <option value="$PROJECT_DIR$/05-springboot-accessdataByMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/06-springboo-accesssdatabymybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/07-springboot-thymeleaf-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/08-springboot-actuator-view/pom.xml" />
+        <option value="$PROJECT_DIR$/09-springboot-features-profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/10-springboot-starter-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/11-spring5-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/12-spring5-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/04-springboot-web-requestbody/pom.xml" />
+        <option value="$PROJECT_DIR$/13-redis-jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/14-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/15-springboot-redis-masterandslave/pom.xml" />
+        <option value="$PROJECT_DIR$/16-springboot-redis-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/17-springboot-redis-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/18-springboot-elasticsearch/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

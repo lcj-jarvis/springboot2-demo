@@ -1,0 +1,23 @@
+spring:
+  redis:
+
+    lettuce:
+      pool:
+        max-idle: 10
+        max-active: 8
+        min-idle: 5
+
+    #配置哨兵的ip地址和端口号。以及哨兵监控的主机
+    sentinel:
+      # nodes: 192.168.174.128:26379,192.168.174.128:26380,192.168.174.128:26381
+       nodes: 192.168.187.129:26379,192.168.187.129:26380,192.168.187.129:26381
+       master: myhost
+
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-idle: 10
+#        min-idle: 0
+
+#    host: 192.168.174.128
+#    port: 6380
